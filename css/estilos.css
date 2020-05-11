@@ -1,0 +1,35 @@
+body {
+    background-color: #E6E6FA; /*background para personalizar o fundo do site.
+    ponto e vírgula sempre pra finalizar no CSS*/
+    /*background-image: url(""); background-image para usar imagem no fundo. url é chamado de função porque segue parênteses. as aspas podem ser simples ou duplas. */
+    background-size: 400px 400px;
+    font-family: Arial;
+    }
+  .menu{
+    background-color: white;
+  }
+  .menu ul{
+    display: flex;
+    /*a tag flex serve para transformar uma coluna em linha*/
+    justify-content: space-around;
+    /*justify-content: space-between;*/
+  }
+  .menu li{
+    /*todos os elementos da lista li que estão dentro da classe menu vão receber o seguinte estilo*/
+    list-style: none;
+  }
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .site-subtitle,
+  .site-title{
+    color: gray;
+    text-align: center;
+  }
+  .site-subtitle{
+    font-style: italic;
+  }
